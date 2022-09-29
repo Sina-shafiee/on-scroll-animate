@@ -49,7 +49,6 @@ body {
 .hidden {
   filter: blur(8px);
   opacity: 0;
-  transform: translateX(-100%);
   transition: transform 1s ease-out, opacity 1.4s ease-in, filter 1.4s ease-out;
 }
 .active {
@@ -58,6 +57,20 @@ body {
   transform: translateX(0);
 }
 
+.hero.hidden {
+  transform: translateX(-100%);
+}
+.hero.active {
+  transform: translateX(0);
+}
+
+.logo.hidden {
+  transform: translateY(100%);
+}
+.logo.active {
+  filter: unset;
+  transform: translateY(0);
+}
 @media screen and (max-width: 520px) {
   body {
     font-size: 1.8rem;
