@@ -1,2 +1,1 @@
-# AOS
-Animate Elements on scroll 
+# on Scroll animation sample
