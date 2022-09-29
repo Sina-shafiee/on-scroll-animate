@@ -21,7 +21,7 @@ body {
 }
 
 .h-full {
-  min-height: 100vh;
+  height: 100vh;
   margin: 2rem 0 4rem 0;
 }
 
